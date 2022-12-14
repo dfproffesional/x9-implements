@@ -1,0 +1,1 @@
+from .ImageCashLetter import bp as icl
