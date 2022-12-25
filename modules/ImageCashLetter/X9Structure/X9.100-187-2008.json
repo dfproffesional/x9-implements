@@ -1,0 +1,37 @@
+{
+  "FileHeader":{
+    "type": 1,
+    "positions":{
+      "recordType":"1:2",
+      "standardLevel":"3:4",
+      "testFileIndicator":"5:5",
+      "dstRoutingNumber":"6:14",
+      "orgRoutingNumber":"15:23",
+      "fileCreationDate":"24:31",
+      "fileCreationTime":"32:35",
+      "resendIndicator":"36:36",
+      "dstName":"37:54",
+      "orgName":"55:72",
+      "fileIdModifier":"73:73",
+      "countryCode":"74:75",
+      "userField":"76:79",
+      "compDocIndicator":"80:80"
+    },
+    "rules":{
+      "recordType":{"type":"int","align":null,"message":"Error: recordType needs to be integer"},
+      "standardLevel":{"type":"int","align":null,"message":"Error: standardLevel needs to be integer"},
+      "testFileIndicator":{"type":"str","align":"left","message":"Error: testFileIndicator needs to be string"},
+      "dstRoutingNumber":{"type":"int","align":null,"message":"Error: dstRoutingNumber needs to be integer"},
+      "orgRoutingNumber":{"type":"int","align":null,"message":"Error: orgRoutingNumber needs to be integer"},
+      "fileCreationDate":{"type":"int","align":null,"message":"Error: fileCreationDate needs to be integer"},
+      "fileCreationTime":{"type":"int","align":null,"message":"Error: fileCreationTime needs to be integer"},
+      "resendIndicator":{"type":"str","align":"left","message":"Error: resendIndicator needs to be string"},
+      "dstName":{"type":"str","align":"left","message":"Error: dstName needs to be string"},
+      "orgName":{"type":"str","align":"left","message":"Error: orgName needs to be string"},
+      "fileIdModifier":{"type":"str","align":"left","message":"Error: fileIdModifier needs to be string"},
+      "countryCode":{"type":"str","align":"left","message":"Error: countryCode needs to be string"},
+      "userField":{"type":"str","align":"left","message":"Error: userField needs to be string"},
+      "compDocIndicator":{"type":"str","align":"left","message":"Error: compDocIndicator needs to be string"}
+    }
+  }
+}
