@@ -1,8 +1,14 @@
 import os
+import pathlib
 from flask import Flask, Response
 from dotenv import load_dotenv
 
+ROOT_DIR = str(pathlib.Path("").parent.resolve())
+MODULES_DIR = ROOT_DIR+"/modules"
+API_DIR = ROOT_DIR+"/api"
+
 load_dotenv()
+
 def set_config_app(app:Flask)-> None:
   if (os.getenv('ENV')!="production"):
     app.config.update(

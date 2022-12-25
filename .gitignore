@@ -1,5 +1,7 @@
+modules/ImageCashLetter/X9Structure/*.local.json
 *.vscode
 *.env
 *.env.*
+*.dat
 !*.env.example
 __pycache__
